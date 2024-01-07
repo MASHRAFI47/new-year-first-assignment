@@ -1,0 +1,347 @@
+/* Global/Shared Css Starts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.texts {
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #F00;
+    border: none;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #F00;
+    border: 1px solid #F00;
+}
+
+.para {
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 42px;
+    margin-top: 0px;
+}
+
+.colored-text {
+    color: #F00;
+}
+
+.desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer {
+    padding: 120px 0px;
+    margin-top: 120px;
+    margin: 0px auto;
+    background-color: #070211;
+}
+
+/* Global/Shared Css Ends */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+section {
+    margin-top: 120px;
+}
+
+/* Banner Section Starts */
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 140px 340px;
+    border-radius: 10px;
+}
+
+.banner-texts {
+    text-align: center;
+}
+
+.banner-greeting {
+    font-size: 26px;
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+/* Banner Section Ends */
+
+/* Offer Section Starts */
+.offer-heading {
+    font-size: 62px;
+    color: #F00;
+}
+
+/* Offer Section Ends */
+
+/* midnight-party section starts */
+.midnight-party {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/party.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.midnight-year {
+    display: flex;
+    gap: 50px;
+}
+
+.midnight-greeting {
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    line-height: 80px;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.midnight-desc {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.midnight-btn {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.midnight-btn:hover {
+    text-decoration: underline;
+}
+
+/* midnight-party section ends */
+
+/* Planning Section Starts */
+.planning {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 350px;
+    border-radius: 10px;
+}
+
+.planning-texts {
+    color: #070211;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+/* Planning Section Ends */
+
+/* coming-soon section starts */
+.coming-soon-sides {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.coming-soon .color {
+    color: #F00;
+    margin-bottom: 0px;
+}
+
+.equal {
+    width: 33%;
+}
+
+.backcolor {
+    height: 400px;
+    width: 400px;
+    border: 7px solid #F00;
+    border-radius: 100%;
+}
+
+.backcolor img {
+    padding: 20px;
+}
+
+/* coming-soon section Ends */
+
+/* holiday section starts */
+.holiday .para {
+    color: #070211;
+    font-weight: 500;
+}
+
+.holiday-heading {
+    font-size: 62px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.right-img {
+    text-align: right;
+    margin-bottom: -10px;
+}
+
+.pos {
+    position: relative;
+}
+
+.secondary-img {
+    position: absolute;
+    top: 0%;
+}
+
+.third-img {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.top {
+    margin-top: 60px;
+}
+
+/* holiday section ends */
+
+/* portfolio section starts */
+.portfolio .heading {
+    margin: 0px;
+}
+
+.portfolio-texts {
+    width: 800px;
+}
+
+.portfolio-parts {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-part {
+    margin-top: 20px;
+}
+
+.portfolio-part img {
+    width: 100%;
+    transition: 0.5s;
+}
+.portfolio-part img:hover {
+    opacity: 0.7;
+}
+
+/* portfolio section ends */
+
+/* newsletter starts */
+.newsletter {
+    padding: 80px 200px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.newsletter-submission .sides {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-submission input {
+    padding: 20px 50px;
+}
+
+.newsletter-submission input[type="text"] {
+    border-radius: 40px 0px 0px 40px;
+    border: none;
+    padding: 20px 100px;
+}
+
+.newsletter-submission input[type="submit"] {
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* newsletter ends */
+
+/* footer starts */
+.footer {
+    margin-top: 120px;
+}
+.footer p {
+    color: #FFF;
+}
+
+.footer-address {
+    line-height: 30px;
+}
+.footer-side {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.texts-right {
+    text-align: right;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-links img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn-secondary:hover {
+    text-decoration: underline;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+/* footer ends */
